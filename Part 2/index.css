@@ -1,32 +1,13 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #333; /* Background color for contrast */
-}
-
-.styled-box {
-  width: 200px; /* Width */
-  height: 150px; /* Height */
-  background-image: url('Palestine_flag.jpg'); /* Set your background image here */
-  background-size: cover; /* Ensure the image covers the box */
-  background-position: center; /* Center the image */
-  color: #fff; /* Contrasting text color */
-  text-shadow: 0 1px 1px black; /* Text shadow */
-  border-radius: 5px; /* Subtle border radius */
-  border: 1px solid #ccc; /* Border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), /* Standard box shadow */
-              inset 0 0 5px rgba(255, 255, 255, 0.2), /* Inset white shadow */
-              inset 0 5px 5px rgba(0, 0, 0, 0.2); /* Inset black shadow */
-  display: flex; /* For vertical centering */
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  font-size: 1.125rem; /* Font size */
-}
-
-.styled-box a {
-  text-decoration: none; /* Remove underline from link */
-  color: white; /* Ensure the text color is white */
+.cool-box {
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    font-family: Arial, sans-serif;
 }
